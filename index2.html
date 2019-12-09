@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>styx</title>
+	<style type="text/css">
+	@font-face { font-family: 'NotoSerifKR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff'); font-weight: normal; font-style: normal; }
+		html,body {padding: 0; margin: 0; background: black; font-family: 'NotoSerifKR'; color: white; font-size: 20px;}
+		body{position: relative; margin: 0; padding: 0;}
+	section{height: 1500px; position: relative; overflow: hidden;}
+		img{position: absolute; width: 600px;}
+		.text{  width:600px; font-size: 20px; line-height: 2.1;  position: absolute; font-weight: 300;}
+		.next{display: block; color:black; background: white; transition: all ease 0.5s; }
+		.next:hover {color: white; background: black;}
+		.turn{animation: ro 4.6s infinite linear;  }
+		.turn2{animation: ro 5s infinite linear;  }
+		.turn3{animation: ro 5.2s infinite linear;  }
+		.turn4{animation: ro 4.2s infinite linear;  }		
+		@keyframes
+		ro{ from{}
+			to{transform: rotate(360deg);} }
+		}
+	</style>
+</head>
+<body>
+<section>
+	<img src="logo.png" style="left: 30%; top: 7%;">
+
+	<a href="part1.html"><img src="part1.png" class="turn3" style="width: 400px; left: 20%; top: 30%;"></a>	
+
+	<a href="part2.html"><img src="part2-01.png" class="turn" style="width: 400px; left: 50%; top: 30%;"></a>
+
+	<a href="part3.html"><img src="part3.png" class="turn2" style="width: 450px; left: 18%; top: 63%;">	</a>
+
+	<a href="part4.html"><img src="part4.png" class="turn4" style="width: 450px; left: 48%; top: 63%;"></a>	
+
+	<a href="index.html"><div class="text next"  style="text-align: center;  position: absolute; top: 90%; left:5%;  width: 100px; line-height: 0.2;  height: 50px;"><p>before</p></div></a>
+</section>
+</body>
+</html>

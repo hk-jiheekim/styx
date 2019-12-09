@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>styx_1</title>
+	
+	<style type="text/css">
+		
+		@font-face { font-family: 'ON-IGothic'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eleven@1.0/ON-IGothic.woff') format('woff'); font-weight: normal; font-style: normal; }
+		
+		body{background-color: black;}
+
+		section, .warp{position: relative;}
+		.wrap{height: 500px;}
+		iframe{position: absolute;}
+
+		ul{list-style-type: none;}
+		li{float: left;}
+		li a{text-decoration: none; color: white; font-weight: bold; display: block; text-align:center; padding: 5px 35px; }
+		li a:link, li a:hover; li a:active;, li a:visited{display:block; text-decoration: none; color: white; font-weight: bold; transition: all 1s;}
+		li a:hover{background: white; color: white;text-decoration: none;}
+		 
+		
+		.a nav{position: fixed; left: calc(50% - 750px); z-index: 999; opacity: 70%; font-family: 'BMEULJIRO'; font-size: 18px;}
+		.a img{width: 50px;}
+
+		.b .wrap{height: 200px;}
+		.b img{width: 200px; position: absolute;top: 100px; left: calc(50% - 100px);}
+
+		.c .wrap{height: 100px;}
+		.c nav{position: absolute; left: calc(50% + 50px); top: 50px;}
+
+		.d img{position: absolute; left: calc(50% - 500px); top: 30px;
+			animation: ro 30s infinite; width: 400px;}
+		@keyframes ro{from{transform: rotate(0deg);} to{transform: rotate(360deg);}}
+		
+		 iframe{top: 50px; opacity: 0;}
+		 .c h3{position: absolute; color: white; top: 50px; font-size: 18px; font-family: 'ON-IGothic';}
+		 .c #c1{left: calc(50% + 100px);}
+		 .c #c2{left: calc(50% + 180px);}
+		 .c #c3{left: calc(50% + 380px);}
+		 .c #c4{left: calc(50% + 460px);}
+
+		.d .wrap{height: 500px;}
+
+		 .d p{position: absolute; color: white; width: 500px; line-height: 1.7em; font-size: 18px; top: 20px; left: calc(50% + 50px); word-break: keep-all; font-family: 'ON-IGothic';}
+		}
+
+	</style>
+
+</head>
+
+<body>
+	<section class="a">
+		<nav>
+			<ul>
+	
+			<li><a href="./part1.html"><img src="./1cd.png"></a></li>
+			<li><a href="./part2.html"><img src="./2cd.png"></a></li>
+			<li><a href="./part3.html"><img src="./3cd.png"></a></li>
+			<li><a href="./part4.html"><img src="./CD.png"></a></li>
+
+			</ul>
+		</nav>
+	</section>
+	
+	<section class="b">
+		<div class="wrap">
+			<a href="./index.html"><img src="./logo.jpg"></a>
+		
+		</div>
+	</section>
+	 
+	<section class="c">
+		<div class="wrap">
+			
+	
+			<h3 id="c1">불티</h3>
+			<h3 id="c2"> 사람들이 움직이는 게</h3>
+			<h3 id="c3"> 여행</h3>
+			<h3 id="c4"> Yes or Yes</h3>
+			
+		</nav>
+			
+		</div>
+	</section>
+
+	<section class="d">
+		<div class="wrap">
+			<img src="./1cd.png">
+			
+			<iframe class="vi1" id="vvi1" width="560" height="315" src="https://www.youtube.com/embed/4s5IDpd_Kk4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+			<iframe class="vi2" id="vvi2" width="560" height="315" src="https://www.youtube.com/embed/BXX1qo2C-sA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			<iframe class="vi3" id="vvi3" width="560" height="315" src="https://www.youtube.com/embed/K1k7_p3Jwjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			<iframe  class="vi4" id="vvi4" width="560" height="315" src="https://www.youtube.com/embed/EuAtB_5EJhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+		</div>
+	</section>
+		
+		<section class="d">
+			<div class="wrap">
+				<p>댄스 장르의 곡을 선정했다. 가사를 상상했을 때, 떠오르는 단어를 검색하여 적절한 영상을 찾아 편집을 진행했다. 대부분 직관적으로 해석할 수 있는 영상을 사용했다. 영상과 어울리는 효과음과 랜덤하게 선정한 효과음을 같이 믹스해서 작업을 했다. 노래방 화면과 같은 구성을 하여 화면을 구성하여 진행했다. 굉장히 직관적으로 작업을 해서 ‘피식’ 웃음이 나올 수 있는 영상물이 나왔다.</p>
+			</div>
+		</section>
+	<script type="text/javascript">
+		
+		var c1state ="off";
+		c1.onclick=function(){
+			if(c1state =="off"){
+			vvi1.style.opacity = "1";
+			vvi1.style.left = "calc(50% + 50px)";				
+			c1.style.opacity ="0.3";
+			c1state = "on";}
+			else{
+				vvi1.style.opacity = "0";
+				vvi1.style.left = "-500px";
+				c1.style.opacity ="1";
+				c1state = "off";}}
+
+		var c2state ="off";
+		c2.onclick=function(){
+			if(c2state =="off"){
+			vvi2.style.opacity = "1";
+			vvi2.style.left = "calc(50% + 50px)";				
+			c2.style.opacity ="0.3";
+			c2state = "on";}
+			else{
+				vvi2.style.opacity = "0";
+				vvi2.style.left = "-500px";
+				c2.style.opacity ="1";
+				c2state = "off";}}
+
+		var c3state ="off";
+		c3.onclick=function(){
+			if(c3state =="off"){
+			vvi3.style.opacity = "1";
+			vvi3.style.left = "calc(50% + 50px)";				
+			c3.style.opacity ="0.3";
+			c3state = "on";}
+			else{
+				vvi3.style.opacity = "0";
+				vvi3.style.left = "-500px";
+				c3.style.opacity ="1";
+				c3state = "off";}}
+
+				var c4state ="off";
+		c4.onclick=function(){
+			if(c4state =="off"){
+			vvi4.style.opacity = "1";
+			vvi4.style.left = "calc(50% + 50px)";				
+			c4.style.opacity ="0.3";
+			c4state = "on";}
+			else{
+				vvi4.style.opacity = "0";
+				vvi4.style.left = "-500px";
+				c4.style.opacity ="1";
+				c4state = "off";}}
+
+		
+	</script>
+</body>
+</html>
